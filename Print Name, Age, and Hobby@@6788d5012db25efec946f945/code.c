@@ -8,7 +8,7 @@ int main() {
    fgets(stri,sizeof(stri),stdin);
    scanf("%d",&age);
    getchar();
-   fgets(stro,sizeof(stro),stdin)
+   fgets(stro,sizeof(stro),stdin);
    printf("Name: %str1\nAge: %d\nHobby: %s",stri,age,stro);
     return 0;
 }
