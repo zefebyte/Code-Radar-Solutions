@@ -5,7 +5,10 @@ int main() {
    char stri[100];
    int age;
    char stro[100];
-   scanf("%s %d %s",&stri,&age,&stro);
+   fgets(stri,sizeof(stri),stdin);
+   scanf("%d",&age)
+   getchar();
+   fgets(stro,sizeof(stro),stdin)
    printf("Name: %str1 Age: %d\nHobby: %s",stri,age,stro);
     return 0;
 }
