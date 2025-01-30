@@ -5,7 +5,7 @@
 int main() {
     char stro[],stri[];
     scanf("%s %s",&stro,&stri);
-    printf("%s and %s",stro,stri);
+    printf("You entered: %s and %s",stro,stri);
     
 
 
