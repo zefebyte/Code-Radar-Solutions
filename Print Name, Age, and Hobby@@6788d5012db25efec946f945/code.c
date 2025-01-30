@@ -6,9 +6,9 @@ int main() {
    int age;
    char stro[100];
    fgets(stri,sizeof(stri),stdin);
-   scanf("%d",&age)
+   scanf("%d",&age);
    getchar();
    fgets(stro,sizeof(stro),stdin)
-   printf("Name: %str1 Age: %d\nHobby: %s",stri,age,stro);
+   printf("Name: %str1\nAge: %d\nHobby: %s",stri,age,stro);
     return 0;
 }
