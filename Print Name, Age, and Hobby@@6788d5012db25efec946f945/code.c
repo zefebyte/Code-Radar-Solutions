@@ -9,6 +9,6 @@ int main() {
    scanf("%d",&age);
    getchar();
    fgets(stro,sizeof(stro),stdin);
-   printf("Name: %str1\nAge: %d\nHobby: %s",stri,age,stro);
+   printf("Name: %s\nAge: %d\nHobby: %s",stri,age,stro);
     return 0;
 }
