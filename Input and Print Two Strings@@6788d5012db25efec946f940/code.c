@@ -3,9 +3,9 @@
 
 
 int main() {
-    char str1[],str2[];
-    scanf("%s %s",&str1,&str2);
-    printf("%s and %s",str1,str2);
+    char stro[],stri[];
+    scanf("%s %s",&stro,&stri);
+    printf("%s and %s",stro,stri);
     
 
 
