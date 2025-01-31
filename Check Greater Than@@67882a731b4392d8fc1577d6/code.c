@@ -8,11 +8,9 @@ int main() {
    if(a>b){
     printf("True");
    }
-   else if(b>a){
+   else{
     printf("False");
    }
-   else{
-    break
-   }
+   
     return 0;
 }
