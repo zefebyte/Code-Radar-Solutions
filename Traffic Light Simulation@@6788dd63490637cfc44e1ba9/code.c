@@ -4,6 +4,7 @@
 int main() {
     char a;
     scanf("%c",&a);
+    a=toupper(a);
         if(a=='R'){
             printf("Stop");
         }
