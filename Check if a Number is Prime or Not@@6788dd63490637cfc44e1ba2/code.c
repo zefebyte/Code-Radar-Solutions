@@ -13,8 +13,8 @@ for(int i=2;i*i<=n;i++){
        break
 }
 if(flag){
-    printf("Prime")
+    printf("Prime");
 }
 else{
-    printf("Not Prime")
+    printf("Not Prime");
 }}}
