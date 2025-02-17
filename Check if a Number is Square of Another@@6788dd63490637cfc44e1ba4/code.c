@@ -5,10 +5,12 @@ int main() {
     scanf("%d %d", &a, &b);
 
     // Check if b is equal to a * a
-    if (b == a * a) {
+    if (a == b * b) 
+    {
         printf("Yes");
-    } else {
-        printf("No");
     }
-
+     else
+    {
+       printf("No");
+    }
 }
