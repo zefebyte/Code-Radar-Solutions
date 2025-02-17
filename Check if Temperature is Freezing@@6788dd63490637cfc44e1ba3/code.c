@@ -4,7 +4,7 @@
 int main() {
     int m;
     scanf("%d",&m);
-    if(m<0){
+    if(m<=0){
         printf("Freezing");
     }
     else{
