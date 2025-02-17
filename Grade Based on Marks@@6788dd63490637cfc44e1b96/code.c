@@ -1,4 +1,6 @@
 // Your code here...
+#include <stdio.h>
+int main(){
 int n;
 scanf("%d",&n);
 if(n>=90){
@@ -16,3 +18,4 @@ else if(n>=60 && n<70){
 else{
     printf("F");
 }
+return 0}
