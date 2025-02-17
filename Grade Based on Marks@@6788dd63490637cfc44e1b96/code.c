@@ -18,4 +18,4 @@ else if(n>=60 && n<70){
 else{
     printf("F");
 }
-}return 0;
+}
