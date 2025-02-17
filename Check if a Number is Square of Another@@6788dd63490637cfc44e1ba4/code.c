@@ -1,13 +1,15 @@
-// Online C compiler to run C program online
 #include <stdio.h>
 
 int main() {
-    int a,b;
-    scanf("%d %d",&a,&b);
-    if(b==a*a){
+    int a, b;
+    scanf("%d %d", &a, &b);
+
+    // Check if b is equal to a * a
+    if (b == a * a) {
         printf("Yes");
-    }
-    else{
+    } else {
         printf("No");
     }
+
+    return 0;
 }
