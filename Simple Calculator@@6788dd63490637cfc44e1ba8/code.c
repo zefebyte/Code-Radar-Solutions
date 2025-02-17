@@ -15,7 +15,11 @@ int main() {
         printf("%d",a*b);
     }
     else{
-        printf("%f",a/b);
+        if(b!=0){
+        printf("%d",a/b);}
+        else{
+            printf("error");
+        }
     }
 
 }
