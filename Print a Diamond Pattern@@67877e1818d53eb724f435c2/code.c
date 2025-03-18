@@ -16,12 +16,12 @@ int main() {
 
     }
     for(int a=1;a<=n-1;a++){
-        for(int b=1;b<=a-1;b++){
+        for(int b=1;b<=a;b++){
             printf(" ");
         }
-        for(int c=2*(m-1)-1;c>=1;c--){
+        for(int c=1;c<=2*(n-a)-1;c++){
             printf("*");
-            m--;
+            
         }printf("\n");
     }
 
