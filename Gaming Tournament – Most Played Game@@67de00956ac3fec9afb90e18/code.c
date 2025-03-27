@@ -1,7 +1,7 @@
 // Online C compiler to run C program online
 // Your code here...// Online C compiler to run C program online
 #include <stdio.h>
-void mostplayed(int arr[], int size){
+int mostPlayedGame(int arr[], int size){
     int maxel;
     int maxcount = 0;
     for(int i=0;i<size;i++){
@@ -16,7 +16,7 @@ void mostplayed(int arr[], int size){
             maxel = arr[i];
         }
 
-    }printf("%d",maxel);
+    }return maxel;
 
 }
 
@@ -27,7 +27,8 @@ int main() {
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    mostplayed(arr,n);
+    int result = mostPlayedGame(arr,n);
+    printf("%d\n",result);
 
     return 0;
 }
