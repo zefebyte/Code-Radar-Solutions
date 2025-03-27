@@ -20,15 +20,3 @@ int mostPlayedGame(int arr[], int size){
 
 }
 
-int main() {
-    int n;
-    scanf("%d",&n);
-    int arr[1000];
-    for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
-    }
-    int result = mostPlayedGame(arr,n);
-    printf("%d\n",result);
-
-    return 0;
-}
