@@ -1,7 +1,7 @@
 // Your code here...
 // Online C compiler to run C program online
 #include <stdio.h>
-int trackPlayerRanks(int ranked[],int n,int player[],int m,int result[]){
+void trackPlayerRanks(int ranked[],int n,int player[],int m,int result[]){
     int a=0;
     for(int i=0;i<m;i++){
         for(int j=0;j<n;j++){
@@ -11,5 +11,5 @@ int trackPlayerRanks(int ranked[],int n,int player[],int m,int result[]){
                 
             }
         }
-    }return result;
+    }
 }
